@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="./info.css">
+    <!-- <script src="./JS/contact.js"></script> -->
+</head>
+<body>
+       <div class="cont">
+            
+           <div class="contactList">
+            <div id="formDataContainer">
+                
+            </div>
+           </div>
+        </div>
+    
+</body>
+<script>
+    let myInfo = localStorage.getItem('ContactsInfo');
+    console.log(myInfo)
+    if (myInfo) {
+      let AllData = JSON.parse(myInfo);
+      let formDataContainer = document.getElementById('formDataContainer');
+      AllData.forEach((AllData) => {
+        let listItem = document.createElement('p');
+      listItem.innerText = 
+      'Name: ' + AllData.Username + 
+      ', Email: ' + AllData.UserEmail + 
+      ', Phone: ' + AllData.UserPhoneNumber + 
+      ', Group: ' +  AllData.UserGroup;
+      formDataContainer.appendChild(listItem);
+      });
+    }
+</script>
+</html>

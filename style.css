@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactdiv{
+    width: 60%;
+    height: 70%;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    
+}
+.picturediv{
+    width: 50%;
+    height: 100%;
+    
+}
+.picturediv img{
+    width: 100%;
+    height: 100%;
+}
+.formdiv{
+    width: 40%;
+    height: 100%;
+    background-color: #E863FF;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.caption{
+    width: 100%;
+    height: 20%;
+    /* background-color: blue; */
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.thename{
+    width: 90%;
+    height: 10%;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+}
+.input1 {
+    width: 100%;
+    height: 90%;
+    background-color: white;
+    /* border-radius: 5px; */
+    border: none;
+    outline: none;
+    padding: 10px;
+    
+}
+.thenumber{
+    width: 90%;
+    height: 10%;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+}
+.input2 {
+    width: 100%;
+    height: 90%;
+    background-color: white;
+    /* border-radius: 5px; */
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+.theemail{
+    width: 90%;
+    height: 10%;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+}
+.input3 {
+    width: 100%;
+    height: 90%;
+    background-color: white;
+    /* border-radius: 5px; */
+    border: none;
+    outline: none;
+    padding: 10px;
+    
+    
+}
+.thegroup{
+    width: 90%;
+    height: 10%;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+}
+.stylegroup{
+    width: 100%;
+    height: 90%;
+    background-color: white;
+    border-radius: 5px;
+}
+.btn{
+    width: 50%;
+    height: 10%;
+    background-color: green;
+    color: white;
+    border-radius: 30px;
+    border: none;
+}
+
+.btns{
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    border: none;
+    border-radius: 30px;
+    color: white;
+}
